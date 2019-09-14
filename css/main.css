@@ -1,0 +1,84 @@
+.place-holder {
+  height: 205px;
+  display: inline-block;
+}
+
+.parallax-1 {
+  height: calc(100vh - 55px);
+}
+
+.nav-color {
+  background-color: #845939;
+}
+
+.color {
+  background-color: #e5e5e5;
+}
+
+.main-btn-cover {
+  position: relative;
+  top: 65vh;
+}
+
+.page-footer {
+  background-color: #845839;
+}
+
+.main-btn {
+  float: right;
+  background-color: #845839;
+}
+
+.main-btn-text {
+  display: inline-block;
+  font-size: x-large;
+}
+
+.main-btn-s {
+  display: none;
+}
+
+.btn-floating.btn-large i {
+  line-height: 15vmax;
+  font-size: 8vmax;
+}
+
+.btn-floating.btn-large {
+  width: 15vmax;
+  height: 15vmax;
+  margin-right: 20px;
+}
+
+.main-btn-l {
+  border-radius: 15px;
+  width: 25vw;
+}
+
+.btn-large:hover, .btn-large:focus {
+  background-image: linear-gradient(45deg, #ff9933, #ffffff, #138808) !important;
+  color: #000080 !important;
+}
+
+.mb-15 {
+  margin-bottom: 25px;
+}
+
+.node {
+  background-color: #010101;
+  padding: 5px;
+}
+
+.list-font {
+  font-size: 1.3rem;
+  line-height: 1.5em;
+}
+
+@media (max-width: 765px) {
+  .main-btn-l {
+    display: none;
+  }
+
+  .main-btn-s {
+    display: inline-block;
+  }
+}
