@@ -10,3 +10,11 @@
 .page-footer {
   background-color: #845839;
 }
+
+.doc-text-size {
+  font-size: 1.3em;
+}
+
+.m-5 {
+  margin: 5px;
+}
